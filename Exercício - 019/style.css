@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Druk";
+    src: url("fonts/DrukWide-Medium.ttf") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body {
+    background-color: rgba(142, 185, 142, 0.411);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1 {
+    font-family: "Druk";
+    color:#013440;
+    padding: 10px;
+}
+
+h1#principal {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+
+    
+}
+.basico {
+    color: #ffffff;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+
+
+}
+h2 {
+    color: rgb(60, 116, 60);
+    padding: 10px;
+}
+.ti {
+    color: #049DBF;
+}
+p {
+    font-family: "Open Sans";
+    padding: 10px;
+}
